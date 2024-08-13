@@ -1,0 +1,14 @@
+Hand written digit classifiction
+
+
+What is Mnist
+
+set of 70000 small images of digits
+each image 28X28 pixel
+0 white to 255 black
+Mnist is a hello world of ML
+
+
+784 features
+
+

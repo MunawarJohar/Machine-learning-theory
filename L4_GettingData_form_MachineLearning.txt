@@ -1,0 +1,19 @@
+Tradition programming: algorithm time complexity memroy execution
+
+
+
+You can get data from
+1 from company
+2 an investor
+3 from online data scriping
+4 UCI Ml repository
+
+
+Commonly used UCI machine learning repository
+
+
+
+Machine learning algorithm
+download dataset form UCI
+
+This data is fit in algoritm 

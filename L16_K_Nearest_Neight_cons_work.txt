@@ -1,0 +1,27 @@
+KNN: K Nearest Neighbor
+                         
+           :                1 1 1                1=spum             0=not spum
+           :                 0 1 0 
+           : 0 0 1              0 01
+       f2  :  0 1 0=4    x       11 1 1 
+           :0 0 0
+           :..................
+                     f1
+
+   spummer
+
+
+
+measure the distance of x and find nearest neighbor  spum or not spum
+
+
+0=4 is first nearest neighbor of x
+
+pons and cons of KNN:
+testing is challenging
+find the value of k is another challen
+computation is difficuit then is is slow
+
+Advantages
+it is simple take one point.if value of k is 4 then take the 4 nearest point of k.
+easy for understanable 

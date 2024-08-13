@@ -1,0 +1,48 @@
+There are two types of machine learning algorithms:
+
+ supervised  learning                                            unsupervised learning 
+
+steps in typical machine learning problems 
+
+
+
+Supervised Learning:
+Machine knows something before hand
+i: Already tagged data
+ii: fearures and labels present
+iii: classifaction
+iv: regression
+
+
+
+
+Unsupervised learning:
+All machine knows is the data in front of it .No features no Labels
+i:Data not already tagged
+ii:features and labels not present
+iii:training not done
+iv: clustering and association
+
+
+
+
+Supervised:
+Classification:
+
+Classify which label a given set of features belong to.
+
+Regression:
+Find out the value of the label using previous data.
+
+
+Unsupervised:
+Clustering:
+Discover the inherent gruoping in the data such as
+gruoping custenmers by purchasing behaviour
+
+Association:
+Association rule learning problem.Such as people that buy x also trend to by y.
+
+ 
+
+

@@ -1,0 +1,20 @@
+
+y=mx+b                                              :
+                                                    :    
+f(x)=w1x1+wxo                                       :
+                                                    :
+                                        price       :
+w1 and wo is unknown                                :
+                                                    :....................
+f(x1,x2)=wo+w1+w2x2                                       area
+dependent =independent
+
+
+
+f(x1,x2,x3--Xn)=wo+w1x1+w2x2 -----------wnxn
+
+price?
+
+
+
+

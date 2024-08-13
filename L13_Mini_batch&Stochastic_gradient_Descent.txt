@@ -1,0 +1,32 @@
+Machine learning algorithm
+
+
+
+                                                 .................update paramater
+                                                 :                                :
+feature....Model(predicton).......................................................:......
+                                                                       :  Loss function  :
+                                             :'''''''''''''''''''''''''''''''''''''''''''
+label........................................:
+
+
+
+
+
+Batch: consetoring the data for loss function
+
+supose if we take 1000  data set then batch size is 1000
+
+for example 100,100,100,100
+
+Mani batch gradient descent: In mini batch we change the size of batch
+
+
+stochastic gradient descent:only one example or 1 data set
+
+Gradient descent:batch size is full data set
+
+mani gradient descent:batch size choose by data analysis
+
+
+learning rate(LR): choose gooldelogs  because gooldelogs is testing learning rate.

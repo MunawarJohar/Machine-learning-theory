@@ -1,0 +1,62 @@
+
+
+
+y=x^2       dy/dx=2x
+             
+loss function                                        SSE              MSE
+
+
+                                                                 absolute error
+
+                                                                    y-y`
+
+loss function=SSE       some of square error
+                                  
+   
+Aprociamate method implement called gradient descent
+                                 
+                                  :
+                                  :
+                                  :
+                                  :         
+                                  :
+                                  :16.......        x=4        y=x^2
+                                  :        '
+                                  :        '
+                                  :        '
+                                  :        '
+    .......................................4.....................
+
+
+
+x=5
+LR=0.1X10
+LR=learning rate a number
+x= 5-0.1X100=5-1=4
+
+ gradient Desent
+Xnew=x-LRdy/dx
+
+
+Why we used loss function and gradient desent
+1.Exact methods is computationally expensive
+2.loss functions give direction of optimal solutions 
+3.fast enough to scale on big data
+4. Easy to understand
+
+
+
+common loss function
+MSE=actuall - predicted
+
+MAE=
+
+Cross entropy
+hinge
+huber
+kullback leiber
+
+
+
+Gradient Descent
+     

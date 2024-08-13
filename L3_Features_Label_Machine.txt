@@ -1,0 +1,47 @@
+Cat or Dog?
+
+
+Features:We see the things that is called features.
+For example eyes feets nose mouth ets is feature
+or things that specify this that things is called feacture for e.g cat dog man
+
+
+machine learning algorithm take input as feature and give output as label
+Label: label like a tag
+
+ 
+
+
+ML algorithm whats are feature and dectect features and give conculusion
+
+
+Set of feature f1 f2 f3
+
+
+labels green cat blue cat
+
+
+
+f1 eyes f2 mouth f3 hands
+
+
+
+data 
+Four feature algorithm: f1   f2   f3   f4              Angry        happy
+
+                         23   3    4    4                0            1
+                         22   5   6    7                 1            0
+
+
+
+
+
+
+
+
+
+ML Result                                                           pass=0
+                 f1             f2      f3          f4                    fail=1
+           paper marks      project    viva       labs
+              12              15        10          5                 1
+              20              20         25         10                0                                               

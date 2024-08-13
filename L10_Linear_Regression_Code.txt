@@ -1,0 +1,68 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+from sklearn import datasets,linear_model
+from sklearn.metrics import mean_squared_error
+
+diabetes_data=datasets.load_diabetes()
+
+#diabetes_X=diabetes_data.datasets
+
+print(diabetes_data.keys())
+dict_keys(['data', 'target', 'frame', 'DESCR', 'feature_names', 'data_filename', 'target_filename', 'data_module'])
+#print(diabetes_data.data)
+
+#print(diabetes_data.target)
+
+#print(diabetes_data.DESCR)
+diabetes_X=diabetes_data.data[:,np.newaxis,2]
+#For one feature and one label and take index 2
+
+diabetes_X=diabetes_data.data[:,np.newaxis,2]
+#print(diabetes_X)
+
+#This give list of list  or array of array
+diabtes_X_train=diabetes_X[:-20]     #take 20 from last
+diabetes_X_test=diabetes_X[-20:]        #take 20 from fast for test
+
+diabetes_y_train=diabetes_data.target[:-20]
+diabetes_y_test=diabetes_data.target[-20:]
+
+#in x axis features 
+#in y axis features 
+#seeing data of features and label to fit linear line
+
+#Creating linear model
+model=linear_model.LinearRegression()
+
+model.fit(diabtes_X_train,diabetes_y_train)
+#We learn and draw line
+diabetes_Prediction=model.predict(diabetes_X_test)    
+#passing argument for prediction
+
+#pridict-actual
+print("MSE Mean squared Error is :",mean_squared_error(diabetes_y_test,diabetes_Prediction))
+#Creating linear model
+model=linear_model.LinearRegression()
+model.fit(diabtes_X_train,diabetes_y_train)
+#We learn and draw line
+diabetes_Prediction=model.predict(diabetes_X_test)    
+#passing argument for prediction
+​
+#pridict-actual
+print("MSE Mean squared Error is :",mean_squared_error(diabetes_y_test,diabetes_Prediction))
+
+MSE Mean squared Error is : 2548.07239872597
+print("Weights is :",model.coef_)
+print("Intercept is :",model.intercept_)
+Weights is : [938.23786125]
+Intercept is : 152.91886182616113
+
+plt.scatter(diabetes_X_test,diabetes_y_test)
+plt.show()
+#For ploting feactures and labels
+plt.scatter(diabetes_X_test,diabetes_y_test)
+plt.show()

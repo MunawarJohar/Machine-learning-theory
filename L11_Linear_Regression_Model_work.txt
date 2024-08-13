@@ -1,0 +1,25 @@
+
+y=mx+b                                              :
+                                                    :    
+                                                    :
+                                                    :
+                                     price          :
+                                                    :
+                                                    :....................
+                                                               area
+
+x  y
+1  3
+2  2
+3  4 
+
+best line fit 
+ SSE is minimise 
+(mx1+b-3)^2+(mx2+b-2)^2+(mx3+b-4)^2=sse
+
+loss function      part of means learning model that give the loss of your solution.
+
+derivative of=sse
+
+y=x/2+2
+

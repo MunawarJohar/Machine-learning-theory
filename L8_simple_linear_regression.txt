@@ -1,0 +1,29 @@
+for buying house
+500m                  700m                  600m            
+h1                    h2                   h3          h4
+578888              88888                 799999        10
+
+
+                                '88
+                                '79
+                                '........................
+                                '57 
+h5?                             '10
+                                '
+graph         ---------------------h1-----h2----h3-------h4-----
+                                '
+                                '
+                                '
+                                '
+
+c1=5
+c2=3
+c3=7
+c4=9
+
+some of square error         SSE=(-5)^2+3^3+7^2+(-9)^2
+                             SSE=164
+
+
+actuall-predicted
+Seeing area predict the price this is a simple linear regression

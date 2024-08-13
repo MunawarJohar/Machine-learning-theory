@@ -1,0 +1,29 @@
+Overfitting and Underfitting
+                   0.
+           :       :  '.        
+           :   0   :    0' ' ' ' '0    
+           :   '   :
+           :  ' '. '       
+           : '     0
+           :..................
+                
+
+we can say training data and fit the data erro almost zero
+
+Overfitting 
+Low training and high test error
+
+
+
+Underfitting 
+High training error and high test error
+
+
+
+f(x)   points           g(x)    tries to apporaimates of
+
+magic
+
+How to underfitting and overfitting
+1.resempling                         :    300 testing 700 trianing 
+2.holding a validation dataset  :    100 point form training data check for overfitting 

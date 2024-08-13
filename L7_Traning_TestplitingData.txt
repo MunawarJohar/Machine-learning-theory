@@ -1,0 +1,22 @@
+House price
+
+Area  window    price
+222     2      10000
+233     8      1230022
+500     12     3000000
+700     16     5000000
+
+
+
+
+
+input features     model     output labels
+
+
+
+Which data that you used for model is called training data.
+
+
+
+accurace    testing spliting model
+

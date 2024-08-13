@@ -1,0 +1,18 @@
+#used these module
+from sklearn import datasets
+from sklearn.neighbors import KNeighborsClassifier
+iris=datasets.load_iris()
+
+#loading data sets
+feature=iris.data
+labels=iris.target
+print(feature[0],labels[0])
+
+#training the classifier
+classifier=KNeighborsClassifier()      #train classifier
+classifier.fit(feature,labels)
+
+
+predict=classifier.predict([[14,1,4,1]]) #to d array
+
+print(predict)

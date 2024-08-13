@@ -1,0 +1,45 @@
+Overfitting and Underfitting
+                   
+           :               
+           :      
+           :   
+   y      1:         
+           : 
+          0:..................
+                x
+
+Logistic Regression:
+why is called Regression because It is detect probability.
+it is  classify a binary output.
+
+Logistic Regression:
+
+
+0                                 1
+no posibility                  posibility
+              
+
+
+
+Sigmoid functions                1
+ .........:.....................10.               
+        1 :   .  ' 
+         .: '          y=1/1+e^-x         fit value of x give value of y
+   y  .   :         
+   '      : 
+ '........0:..3................
+               0
+y=wx+b                                          Hours        pass=1 | fail=0         
+                                                  10          1                                            
+sigmoid function                                   3                    0   
+y^¬=1/1+e^-y                                       4                    0  
+                                                   9                    0
+olds=p/1-p                                         5          1
+                                                   11         1
+becuase non linearity we can not used means square error
+We used here log loss
+
+loss=-ylogy`      y=1
+loss=-(1-y)log(1-y`   y=0 )
+
+we can minimize loss

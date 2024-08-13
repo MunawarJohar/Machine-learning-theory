@@ -1,0 +1,37 @@
+You tube recommentation
+10 music
+20 gaming
+20 eduction
+40 other content
+
+
+It is not good and efficient
+so here require machine learning 
+
+
+Why we learn machine learning
+1 better carreer
+2 high salary
+3 machine learning is future 
+4 machine learnig fun
+5 high demand Ml
+6 trending Ml
+
+
+Here why we use Python
+
+python is easy
+numpy pandas execute python is fast
+already machine learning libraries provide
+sklearn 
+tensorflow
+pytouch
+
+
+
+python cross platform 
+Linux
+windows
+ubundo
+etc
+ 

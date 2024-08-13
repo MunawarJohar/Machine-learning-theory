@@ -1,0 +1,14 @@
+MACHINE LEARNING
+Machine learning is a technique that we give data set of rules
+
+Give Input data  = output Set of Rules 
+
+Resetly comming good hardware
+
+ML founder is Arthis simullen   1959
+
+Tesla Autoplit system  : car design using trending machine learnning algorithms
+Alpha Go :Alpha go is a computer program 
+mechine learning algorithm playyer win the human that is design by alpha go
+DeepMind: Google purchased deepmind in 2014
+ 

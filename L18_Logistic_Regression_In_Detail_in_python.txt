@@ -1,0 +1,71 @@
+linear regrssion   h1     h2   h3
+     saying these three to predict the price. 
+
+What is logistic Regression?
+
+
+A Regression algorithm which does classifaction
+
+Overfitting and Underfitting
+                   
+           :               
+           :      
+           :   
+   y      1:         
+           : 
+          0:..................
+                x
+
+Logistic Regression:
+why is called Regression because It is detect probability.
+it is  classify a binary output.
+
+Logistic Regression:
+
+
+0                                 1
+no posibility                  posibility
+              
+
+
+
+Sigmoid functions                1
+ .........:.....................10.               
+        1 :   .  ' 
+         .: '          y=1/1+e^-x         fit value of x give value of y
+   y  .   :         
+   '      : 
+ '........0:..3................
+               0
+y=wx+b                                          Hours        pass=1 | fail=0         
+                                                  10          1                                            
+sigmoid function                                   3                    0   
+y^¬=1/1+e^-y                                       4                    0  
+                                                   9                    0
+olds=p/1-p                                         5          1
+                                                   11         1
+becuase non linearity we can not used means square error
+We used here log loss
+
+loss=-ylogy`      y=1
+loss=-(1-y)log(1-y`   y=0 )
+
+we can minimize loss
+
+
+
+
+
+
+
+
+How Does Logistic Regression Work
+it take feature and labels (training data)
+fit a linear model(weight and biases)
+and instead of giving you the result it give you the logistic of the result
+
+
+Training a logistic Regression Model?
+we need value of parameter of probabilities near 1 for positive instances.
+we also want low values of probabilities near 0 for negative instances.
+

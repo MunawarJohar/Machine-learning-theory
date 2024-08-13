@@ -1,0 +1,25 @@
+
+Classification:In classification problem classify 
+
+classifaction problem
+
+spam
+
+5%     in 1 lake sale
+
+by this laptop in 1000 only throught this user visit the website.
+classifier
+
+f1  urgency         0 to 100             .      .         0  0          0 is spam
+f2   talks about money 0 to 100          : 1      . 3       0   0                           1 is not spam
+                                         :   1      .         0  0
+                                    M    : 1  1   1   .               3
+                                         :  1 1  3      .
+                                         :     not spam   .             spam
+                                         '.....................         
+    
+                                                U
+
+
+    Classification problem  
+
